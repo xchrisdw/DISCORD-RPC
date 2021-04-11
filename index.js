@@ -17,4 +17,4 @@ buttons : [{label : "Affilate Referal" , url : "https://store.epicgames.com/fnbr
 client.on('ready', () => {
     console.log(`${clientName} is Online!`) // ready event -> this will log to the console if it launchs all good
 })            // client id from https://discord.com/developers/applications
-client.login({ clientId : "814144442461323345" }).catch(console.error); // console logging errors which should happen but just incase
+client.login({ clientId : "814144442461323345" }).catch(console.error); // console logging errors which shouldnt happen but just incase
